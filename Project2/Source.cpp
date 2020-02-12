@@ -1,4 +1,4 @@
-#include<iostream>
+﻿#include<iostream>
 #include<clocale>
 using namespace std;
 
@@ -11,5 +11,14 @@ int main()
 	d = a + b + c;
 	cout << "�����: " <<d<<endl;
 	system("Pause");
+
+	int a, b, c, d;
+	cout << "Введите 3 слагаемых " << endl;
+	cin >> a >> b >> c;
+	d = a + b + c;
+	cout << "Сумма: " <<d<<endl;
+	system("Pause");
+
+
 
 }
